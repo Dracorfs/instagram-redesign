@@ -1,0 +1,39 @@
+body {
+    background: $gray;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.text-sm {
+    font-size: $text-sm;
+    text-align: center;
+    margin: 0;
+  }
+  
+.text-md {
+    font-size: $text-md;
+    text-align: center;
+    margin: 0;
+}
+
+.text-lg {
+    font-size: $text-lg;
+    text-align: center;
+    margin: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.icon-sm {
+    width: 16px;
+}
+
+.icon-md {
+    width: 24px;
+}
