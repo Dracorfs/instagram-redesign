@@ -1,0 +1,37 @@
+.fav-container {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    cursor: pointer;
+    user-select: none;
+    color: rgb(163, 177, 198);
+}
+.fav-checkbox {
+    display: none;
+}
+.fav-checkbox:checked + .fav-container svg {
+    fill: red;
+    animation: heartButton 1s;
+}
+@keyframes heartButton {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.3);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.fav-checkbox + .fav-container {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+}

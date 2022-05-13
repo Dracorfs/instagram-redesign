@@ -2,6 +2,9 @@ body {
     background: $gray;
     font-family: 'Source Sans 3', sans-serif;
 }
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 
 .text-sm {
     font-size: $text-sm;
